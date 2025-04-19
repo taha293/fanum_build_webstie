@@ -1,0 +1,370 @@
+/* For less than 960 width  */
+@media only screen and (max-width: 1084px) {
+    .container::before {
+        background-size: 38%;
+    }
+}
+@media only screen and (max-width: 960px) {
+    .advs {
+        width: 75%;
+        flex-wrap: wrap;
+    }
+
+    .process {
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+
+    .skillscontainer .skills {
+        justify-content: space-between;
+    }
+
+    .projectcontainer .projectitems .projectform {
+        margin: 32px 0px;
+        padding: 0px 2px;
+    }
+
+    .projectcontainer .projectitems .projectform form {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .projectcontainer .projectitems p {
+        padding: 0px 14%;
+    }
+
+    #footerserv {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .services {
+        width: 66%;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .container::before {
+        background-size: 44%;
+    }
+
+    .portitems {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #pbid {
+        display: flex;
+    }
+
+    .projectcontainer .projectitems h1 {
+        font-size: 50px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .navbar {
+        height: auto;
+    }
+    .navitems {
+        display: none;
+    }
+    .navitems {
+        display: flex;
+        overflow: hidden;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 60px;
+        right: 42px;
+        max-height: 0;
+    }
+    .navitems a{
+        display: block;
+    }
+    .navitems.open {
+        max-height: 480px; 
+    }
+    .menuicon {
+        display: flex;
+        cursor: pointer;
+    }
+    #navid {
+        transition: all 0.5s;
+      }
+
+    .headingss p {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .about {
+        margin-right: 36%;
+    }
+
+    .aboutcontainer::before {
+        opacity: 0.5;
+    }
+
+    .projectcontainer .projectitems h1 {
+        font-size: 44px;
+    }
+
+    .reviewscontainer .reviews {
+        grid-template-columns: 1fr;
+    }
+
+    #rev1 {
+        padding: 14px 40px 14px 40px;
+        border: none;
+        border-bottom: 2px solid #e1e2e3
+    }
+
+    #rev2 {
+        padding: 14px 40px 14px 40px;
+        border: none;
+        border-bottom: 2px solid #e1e2e3
+    }
+
+    #rev3 {
+        padding: 14px 40px 14px 40px;
+        border: none;
+        border-bottom: 2px solid #e1e2e3
+    }
+
+    #rev4 {
+        padding: 14px 40px 14px 40px;
+        border: none;
+        border-bottom: 2px solid #e1e2e3
+    }
+
+}
+
+@media only screen and (max-width: 745px) {
+    .container p {
+        padding:  16px 60px;
+    }
+    .container::before {
+        background-size: 50%;
+    }
+    .container h1 {
+        font-size: 46px;
+    }
+    .headingss h1 {
+        font-size: 32px;
+    }
+
+    .about {
+        margin: auto;
+        padding: 2px 55px 45px 55px;
+    }
+    .aboutcontainer::before {
+        opacity: 0.3;
+    }
+    .projectcontainer .projectitems h1 {
+        font-size: 38px;
+    }
+    .projectcontainer .projectitems .projectform form {
+        flex-direction: column;
+    }
+    .projectcontainer .projectitems .projectform input[type="text"] {
+        width: 420px;
+    }
+    .projectcontainer .projectitems .projectform input[type="email"] {
+        width: 420px;
+    }
+    .skillsitem1 {
+        margin: 18px 30px ;
+    }
+    .skillscontainer .skills {
+        justify-content: space-evenly;
+        width: 66%;
+    }
+    .portfoliocontainer .ahref {
+        flex-wrap: wrap;
+        width: 65%;
+    }
+    .portfoliocontainer a {
+        padding: 3px 8px 0px 8px;
+    }
+    #footerusl {
+        display: none;
+    }
+}
+@media only screen and (max-width: 640px) {
+    .headtop {
+        padding: 8px 6px 8px 16px;
+    }
+    .headcontact {
+        display: none;
+    }
+    .headcontact22 {
+        display: flex;
+    }
+    .services {
+        width: 82%;
+    }
+    #pbid {
+        display: none;
+    }
+    .portitems {
+        grid-template-columns: 1fr 1fr;
+    }
+    .contactsitem1 {
+        padding: 0px 72px;
+        text-align: center;
+    }
+    .contactscontainer .contactsitems .contactsitem2 {
+        grid-template-columns: 1fr;
+    }
+    .projectcontainer .projectitems h1 {
+        font-size: 36px;
+    }
+    #rev1 {
+        padding: 14px;
+    }
+    #rev2 {
+        padding: 14px;
+    }
+    #rev3 {
+        padding: 14px;
+    }
+    #rev4 {
+        padding: 14px;
+    }
+}
+@media only screen and (max-width: 555px) {
+ 
+    .headingss h1 {
+        font-size: 28px;
+    }
+    .headingss p {
+        padding-left: 4%;
+        padding-right: 4%;
+        font-size: 14px;
+    }
+    .container::before {
+        background-size: 56%;
+    }
+    .container h1 {
+        font-size: 40px;
+    }
+    /* .container::before {
+        background-position: right top;
+    } */
+    .container p {
+        padding: 3px 30px;
+    }
+    .container  {
+        height: 410px;
+    }
+    .about {
+        text-align: center;
+    }
+    .aboutcontainer::before {
+        background-position: center center ;
+    }
+    
+    .portfoliocontainer .ahref {
+        width: 92%;
+    }
+    .reviewscontainer .reviews {
+        padding: 0px 30px;
+    }
+    .skillscontainer .skills {
+        width: 90%;
+    }
+    .projectcontainer .projectitems h1 {
+        font-size: 26px;
+    }
+    .projectcontainer .projectitems .projectform input[type="text"] {
+        width: 350px;
+    }
+    .projectcontainer .projectitems .projectform input[type="email"] {
+        width: 350px;
+    }
+    .contactsitem1 {
+        padding: 0px 14px;
+    }
+    .process {
+        flex-wrap: wrap;
+        gap: 9px;
+    }
+    
+}
+@media only screen and (max-width: 440px) {
+    .headcontact22 p{
+        font-size: 12px;
+    }
+    .headico a {
+        font-size: 22px;
+    }
+    .container::before {
+        background-size: 65%;
+    }
+    .container h1 {
+        font-size: 36px;
+    }
+    .container p {
+        font-size: 14px;
+    }
+    .about {
+        font-size: 14px;
+    }
+    .portitems div {
+        height: 165px;
+        width: 165px;
+    }
+    .process {
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+    .projectcontainer .projectitems h1 {
+        font-size: 26px;
+        text-align: center;
+    }
+    .projectcontainer .projectitems .projectform input[type="text"] {
+        width: 250px;
+    }
+    .projectcontainer .projectitems .projectform input[type="email"] {
+        width: 250px;
+    }
+    .reviewscontainer .reviews {
+        padding: 0px 14px;
+    }
+    .contactsitem1 {
+        padding: 0px 14px;
+    }
+    footer {
+        align-items: normal;
+        gap: 42px;
+        flex-direction: column;
+    }
+    .footercontactdiv{
+        padding-top: 24px;
+    }
+}
+@media only screen and (max-width: 365px) {
+    .contactsitem1 {
+        padding: 0px 8px;
+        box-sizing: border-box;
+    }
+    .container::before {
+        background-size: 75%;
+    }
+}
+@media only screen and (max-width: 348px) {
+    .container h1 {
+        font-size: 32px;
+    }
+    .portitems {
+        grid-template-columns: 1fr;
+    }
+    .contactsitem1 {
+        padding: 0px 48px;
+    }
+}
