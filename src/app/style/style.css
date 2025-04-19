@@ -392,7 +392,9 @@ li {
     position: relative;
     bottom: 60px;
 }
-
+.Toastify__toast--info svg {
+    fill: #6754E9 !important;
+  }
 /* Portfolio Section  */
 .portfoliocontainer {
     /* height: 400px; */

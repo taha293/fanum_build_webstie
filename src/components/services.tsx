@@ -16,6 +16,7 @@ function Services() {
         });
     }, []);
     const notify = () => toast.info('Fill the form below! Our team will contact you soon.', {
+        style: {color: '#6754E9', fill:"#6754E9" },
         position: "top-right",
         autoClose: 3000,
         hideProgressBar: false,
