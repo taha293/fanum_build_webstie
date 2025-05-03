@@ -5,7 +5,7 @@ const Footer = () => {
         <div className="footeritem1">
             <Image className="h-full w-auto max-w-[100%]" src="/logo3.png" alt="Logo" width={200} height={56}/>
             <p className="mt-4">Creative. Reliable. Skilled. We turn your ideas into reality with top-tier design, development, and digital services.</p>
-            <p className="footerp"><i className="fa-regular fa-copyright" style={{color: "#ffffff"}}></i> FanumBuild
+            <p className="footerp"><i className="fa-regular fa-copyright" style={{color: "#ffffff"}}></i> FanumBuilds
                 <span>2025</span>
             </p>
         </div>

@@ -16,7 +16,7 @@ function Review(){
         <section className="reviewscontainer overflow-hidden" id="reviewssectioni">
         <div data-aos="fade-up" data-aos-duration={700} className="headingss pb-0 ">
             <h1>PEOPLES <span>ABOUT US</span></h1>
-            <p>Here&apos;s what our valued clients say about working with Fanum Build. We take pride in delivering high-quality work, and their words speak for our dedication and service.</p>
+            <p>Here&apos;s what our valued clients say about working with Fanum Builds. We take pride in delivering high-quality work, and their words speak for our dedication and service.</p>
         </div>
         <div className="reviews">
             <div data-aos="fade-right" data-aos-duration={900} className="reviewsitems" id="rev1">
@@ -43,7 +43,7 @@ function Review(){
                 </div>
                 <div className="reviewsitem2">
                     <h1>ALI HAMZA</h1>
-                    <span>Fanum Build developed my website perfectly! The design is clean and works great on all devices. Highly recommended!</span>
+                    <span>Fanum Builds developed my website perfectly! The design is clean and works great on all devices. Highly recommended!</span>
                 </div>
             </div>
             <div data-aos="fade-left" data-aos-duration={900} className="reviewsitems" id="rev4">

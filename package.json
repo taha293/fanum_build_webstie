@@ -9,14 +9,18 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@tabler/icons-react": "^3.31.0",
     "aos": "^2.3.4",
+    "clsx": "^2.1.1",
     "framer-motion": "^12.7.4",
+    "motion": "^12.9.4",
     "next": "14.2.21",
     "react": "^18",
     "react-dom": "^18",
     "react-toastify": "^11.0.5",
     "react-typed": "^2.0.12",
-    "resend": "^4.3.0"
+    "resend": "^4.3.0",
+    "tailwind-merge": "^3.2.0"
   },
   "devDependencies": {
     "@types/aos": "^3.0.7",

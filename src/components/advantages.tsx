@@ -16,7 +16,7 @@ function Advantages(){
         <section className="advcontainer" id="advsectioni">
         <div data-aos="fade-up" data-aos-duration={700} className="headingss">
             <h1>OUR <span>ADVANTAGES</span></h1>
-            <p>At Fanum Build, we pride ourselves on delivering excellence through creativity, precision, and dedication. Here&apos;s why our clients love working with us</p>
+            <p>At Fanum Builds, we pride ourselves on delivering excellence through creativity, precision, and dedication. Here&apos;s why our clients love working with us</p>
         </div>
         <div data-aos="fade-right" data-aos-duration={900} className="advs">
             <div className="adv1">

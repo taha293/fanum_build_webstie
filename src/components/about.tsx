@@ -18,7 +18,7 @@ function About() {
                 <h1>ABOUT <span>US</span></h1>
             </div>
             <div data-aos="fade-left" data-aos-duration={900} className="about lg:!pl-[40px] xl:!pl-[70px]">
-                <p className="mb-9">At Fanum Build, we&apos;re passionate about helping businesses and individuals bring their ideas to life. We specialize in providing top-notch freelancing services, including graphic design, web development, SEO, and more. <br /> <br />With a commitment to quality and creativity, our team works closely with clients to deliver solutions that not only meet but exceed expectations. <br /> <br />Every project is a collaboration—crafted with care, precision, and innovative thinking.We believe in clear communication, timely delivery, and long-term partnerships. Whether you&apos;re launching a new brand or improving an existing one, Fanum Build is your go-to partner for reliable, results-driven services.
+                <p className="mb-9">At Fanum Builds, we&apos;re passionate about helping businesses and individuals bring their ideas to life. We specialize in providing top-notch freelancing services, including graphic design, web development, SEO, and more. <br /> <br />With a commitment to quality and creativity, our team works closely with clients to deliver solutions that not only meet but exceed expectations. <br /> <br />Every project is a collaboration—crafted with care, precision, and innovative thinking.We believe in clear communication, timely delivery, and long-term partnerships. Whether you&apos;re launching a new brand or improving an existing one, Fanum Builds is your go-to partner for reliable, results-driven services.
 
                 </p>
                 <a href="/#quote">

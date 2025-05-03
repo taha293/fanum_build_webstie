@@ -1,5 +1,6 @@
 import Header from "@/components/header"
 import Hero from "@/components/hero"
+import Hero2 from "@/components/Hero2"
 import Advantages from "@/components/advantages"
 import About from "@/components/about"
 import Services from "@/components/services"
@@ -13,7 +14,8 @@ function Home() {
   return (
     <div>
       <Header></Header>
-      <Hero></Hero>
+      <Hero2></Hero2>
+      {/* <Hero></Hero> */}
       <Advantages></Advantages>
       <About></About>
       <Services></Services>
