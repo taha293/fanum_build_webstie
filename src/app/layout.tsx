@@ -17,8 +17,8 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "FanumBuild",
-  description: "At Fanum Build, we're passionate about helping businesses and individuals bring their ideas to life. We specialize in providing top-notch freelancing services, including graphic design, web development, SEO, and more. With a commitment to quality and creativity, our team works closely with clients to deliver solutions that not only meet but exceed expectations. Every project is a collaboration—crafted with care, precision, and innovative thinking.We believe in clear communication, timely delivery, and long-term partnerships. Whether you're launching a new brand or improving an existing one, Fanum Build is your go-to partner for reliable, results-driven services.",
+  title: "FanumBuilds",
+  description: "At Fanum Builds, we're passionate about helping businesses and individuals bring their ideas to life. We specialize in providing top-notch freelancing services, including graphic design, web development, SEO, and more. With a commitment to quality and creativity, our team works closely with clients to deliver solutions that not only meet but exceed expectations. Every project is a collaboration—crafted with care, precision, and innovative thinking.We believe in clear communication, timely delivery, and long-term partnerships. Whether you're launching a new brand or improving an existing one, Fanum Build is your go-to partner for reliable, results-driven services.",
   icons: {
     icon: '/logo5.png', 
   },
