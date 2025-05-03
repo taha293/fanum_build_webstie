@@ -24,7 +24,7 @@ function Review(){
                     <i className="fa-solid fa-person-rays" style={{color: "#e1e2e3"}}></i>
                 </div>
                 <div className="reviewsitem2">
-                    <h1>USMAN RAZA</h1>
+                    <h1>Neal Tucker</h1>
                     <span>I needed a custom Shopify store, and they delivered exactly what I wanted. Smooth process and amazing support!</span>
                 </div>
             </div>
@@ -33,7 +33,7 @@ function Review(){
                     <i className="fa-solid fa-person-rays" style={{color: "#e1e2e3"}}></i>
                 </div>
                 <div className="reviewsitem2">
-                    <h1>FATIMA NOOR</h1>
+                    <h1>Zoe Simon</h1>
                     <span>They turned my logo into a high-quality vector file in no time. Super professional and fast delivery!</span>
                 </div>
             </div>
@@ -42,7 +42,7 @@ function Review(){
                     <i className="fa-solid fa-person-rays" style={{color: "#e1e2e3"}}></i>
                 </div>
                 <div className="reviewsitem2">
-                    <h1>ALI HAMZA</h1>
+                    <h1>Lane Harris</h1>
                     <span>Fanum Builds developed my website perfectly! The design is clean and works great on all devices. Highly recommended!</span>
                 </div>
             </div>
