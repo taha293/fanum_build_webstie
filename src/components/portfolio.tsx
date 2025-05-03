@@ -1,18 +1,19 @@
 'use client'
 import Image from "next/image"
-import { useEffect } from "react";
+import { useEffect,useState } from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 function Portfolio() {
     useEffect(() => {
-            AOS.init({
-                duration: 1000,
-                easing: 'ease-in-out',
-                once: true,
-                mirror: true
-            });
-        }, []);
+        AOS.init({
+            duration: 1000,
+            easing: 'ease-in-out',
+            once: true,
+            mirror: true
+        });
+    }, []);
+    const [usePortfolio,setUsePortfolio] = useState("VECTORIZATION")
     return (
         <section className="portfoliocontainer" id="portfoliosectioni">
         <div data-aos="fade-up" data-aos-duration={700} className="headingss pb-0" id="portheadingss">
@@ -20,9 +21,11 @@ function Portfolio() {
             <p>Take a look at some of our recent projects, showcasing our skills and more.</p>
         </div>
         <div data-aos="fade-up" data-aos-duration={700} className="ahref">
-            <a href="#portfoliosectioni" id="pactive" className="!text-[#6754E9]">VECTORIZATION</a>
+            <a id="pactive" className="cursor-pointer !text-white hover:!text-[#6754E9]" onClick={()=>{setUsePortfolio("VECTORIZATION")}}>VECTORIZATION</a>
+            <a id="pactive" className="cursor-pointer !text-white hover:!text-[#6754E9]" onClick={()=>{setUsePortfolio("WEB DEV")}}>WEB DEV</a>
 
         </div>
+        {usePortfolio == "VECTORIZATION"?
         <div data-aos="fade-right" data-aos-duration={1000} className="portitems">
             <div className="pb">
                 <Image className="h-full" src="/port1.jpg" alt="portfolio1" height={200} width={200}/>
@@ -51,7 +54,36 @@ function Portfolio() {
             <div className="pb" id="pbid">
                 <Image className="h-full" src="/port9.png" alt="portfolio9" height={200} width={200}/>
             </div>
-        </div>
+        </div>:
+        <div data-aos="fade-right" data-aos-duration={1000} className="portitems">
+            <div className="pb">
+                <Image className="h-full" src="" alt="portfolio1" height={200} width={200}/>
+            </div>
+            <div className="pb1">
+                <Image className="h-full" src="" alt="portfolio2" height={200} width={200}/>
+            </div>
+            <div className="pb">
+                <Image className="h-full" src="" alt="portfolio3" height={200} width={200}/>
+            </div>
+            <div className="pb1">
+                <Image className="h-full" src="" alt="portfolio4" height={200} width={200}/>
+            </div>
+            <div className="pb1">
+                <Image className="h-full" src="" alt="portfolio5" height={200} width={200}/>
+            </div>
+            <div className="pb">
+                <Image className="h-full" src="" alt="portfolio6" height={500} width={500}/>
+            </div>
+            <div className="pb1">
+                <Image className="h-full" src="" alt="portfolio7" height={200} width={200}/>
+            </div>
+            <div className="pb">
+                <Image className="h-full" src="" alt="portfolio8" height={200} width={200}/>
+            </div>
+            <div className="pb" id="pbid">
+                <Image className="h-full" src="" alt="portfolio9" height={200} width={200}/>
+            </div>
+        </div>}
     </section >
     )
 }
